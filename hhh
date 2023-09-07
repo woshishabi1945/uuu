@@ -869,11 +869,11 @@ end
 local Config = { WindowName = "Kocmoc v"..temptable.version.." Remastered", Color = Color3.fromRGB(164, 84, 255), Keybind = Enum.KeyCode.Semicolon}
 local Window = library:CreateWindow(Config, game:GetService("CoreGui"))
 
-local hometab = Window:CreateTab("Home")
-local farmtab = Window:CreateTab("Farming")
-local combtab = Window:CreateTab("Combat")
-local itemstab = Window:CreateTab("Items")
-local misctab = Window:CreateTab("Misc")
+local hometab = Window:CreateTab("主页")
+local farmtab = Window:CreateTab("农业")
+local combtab = Window:CreateTab("战斗")
+local itemstab = Window:CreateTab("项目")
+local misctab = Window:CreateTab("其他")
 local setttab = Window:CreateTab("Settings")
 
 local loadingInfo = hometab:CreateSection("Startup")
